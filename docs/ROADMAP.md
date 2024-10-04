@@ -34,6 +34,7 @@ Tecrübesi olmayan kişilerin bir araya gelerek intermediate seviyesinde yardım
         - Görevi yapan kullanıcı
         - Tamamlanıp tamamnlanmadığı
         - Varsa deadline (Burada da datepicker kullanmanız gerek)
+        - Gorevin durumu: Todo - in progress - completed
 
     - Üyenin sayfasında, hangi projelere katıldığı, hangi aktivitelere üye olduğu ve hangi görevleri tamamladığı görülecek
     - Ayrıca üye kendi sayfasını görüyorsa parolasını ve epostasını değiştiebileceği bir form olmalı.
@@ -69,6 +70,11 @@ Tecrübesi olmayan kişilerin bir araya gelerek intermediate seviyesinde yardım
         - completed
         - activity_id FK
         - user_id FK
+        - task_status_id FK
+
+    - task_statuses
+        - id
+        - title
 
     - users
         - id
